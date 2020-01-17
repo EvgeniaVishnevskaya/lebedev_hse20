@@ -11,3 +11,5 @@
  Примеры работ
  Профили дизайнера ( ссылка на сайт и инст )
  Информация о команде
+
+https://www.figma.com/file/PTSJuvJg5r2TAXblGZflhq/%D0%BB%D0%B5%D0%B1%D0%B5%D0%B4%D0%B5%D0%B2?node-id=0%3A1

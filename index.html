@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Артемий Лебедев</title>
   </head>
   <body>
-    <div class="nav_menu">
-
-      <div class="nav_menu_icon">
-        <img src="img/icon-menu.svg" alt="иконка меню">
-        <div class="nav_menu_spisok">
-          <h2>БИОГРАФИЯ</h2>
-          <h2>ФАКТЫ ИЗ ЖИЗНИ</h2>
-          <h2>ПРИМЕРЫ РАБОТ</h2>
-          <h2>КОНТАКТЫ</h2>
-          <h2>КОМАНДА</h2>
-          <img src="img/menu.svg" alt="выделение списка меню">
+    <div class="container">
+      <header class="header">
+        <div class="menu_icon__wrap">
+          <img class="menu_icon__img" src="img/icon-menu.svg" alt="иконка меню">
         </div>
-        <h2>АРТЕМИЙ ЛЕБЕДЕВ</h2>
-      </div>
-    </div>
-    <div class="nav_biographi">
-      <h1>БИОГРАФИЯ</h1>
-      <img src="img/otche-nash2.jpg" alt="Отче наш Лебедев">
-      <p>Артемий Андреевич Лебедев родился 13&nbsp;февраля 1975&nbsp;в Москве. У&nbsp;него много занятий&nbsp;&mdash; российский дизайнер, изобретатель, предприниматель, блогер, путешественник и&nbsp;автор &laquo;Ководства&raquo;&nbsp;&mdash; руководства по&nbsp;веб-дизайну.</p>
-      <p>Основатель, совладелец и&nbsp;генеральный директор &laquo;WebDesign&raquo;, впоследствии переименованной в&nbsp;Студию Артемия Лебедева. Основатель дизайнерских студий &laquo;А-квадрат&raquo;, &laquo;Артографика&raquo;, агентства интернет-рекламы &laquo;Реклама.ру&raquo;. С&nbsp;2008 года представитель акционеров в&nbsp;компании &laquo;SUP Media&raquo;, владеющей русскоязычным проектом &laquo;Живой Журнал&raquo;.</p>
-      <img src="img/logo-studii.jpg" alt="Логотип студии Лебедева">
-      <p>На&nbsp;счету <a target="_blank" href="https://www.artlebedev.ru/">Студии Артемия Лебедева</a> более двух с&nbsp;половиной тысяч работ, среди которых фирменные стили, книги, журналы, дорожные знаки, пиктограммы, графические и&nbsp;физические интерфейсы, сайты, объекты промдизайна и&nbsp;промышленной графики, витрины.</p>
-      <p>По&nbsp;собственному утверждению, Лебедев является отцом 10&nbsp;детей: четырёх девочек и&nbsp;шести мальчиков. Мать одного ребёнка&nbsp;&mdash; журналистка Марина Литвинович.</p>
-      <img src="img/red-line.svg" alt="красная ветка">
-      <img src="img/green-line.svg" alt="зеленая ветка">
-    </div>
-    <div class="nav_interesnie-facti">
-      <h1>ФАКТЫ</h1>
-      <h1>ИЗ ЖИЗНИ</h1>
-      <ul>
+        <nav class="navigation">
+          <ul class="navigation_list__container">
+            <li class="biography"> <a class="" href="#">БИОГРАФИЯ</a></li>
+            <li class="facts"> <a class="" href="#">ФАКТЫ ИЗ ЖИЗНИ</a></li>
+            <li class="examples_of__works"> <a class="" href="#">ПРИМЕРЫ РАБОТ</a></li>
+            <li class="contacts"> <a class="" href="#">КОНТАКТЫ</a></li>
+            <li class="team"> <a class="" href="#">КОМАНДА</a></li>
+            <img class="navigation_list__icon" src="img/navigation_list__icon.svg" alt="выделение списка меню">
+          </ul>
+        </nav>
+        <div class="title_container">
+          <h2 class="header_title">АРТЕМИЙ ЛЕБЕДЕВ</h2>
+        </div>
+
+      </header>
+
+    <section class="biography_container">
+        <img class="" src="img/otche-nash2.jpg" alt="Отче наш Лебедев">
+        <h1 class="biography_title">БИОГРАФИЯ</h1>
+          <p class="biography_pretitle">Артемий Андреевич Лебедев родился 13&nbsp;февраля 1975&nbsp;в Москве. У&nbsp;него много занятий&nbsp;&mdash; российский дизайнер, изобретатель, предприниматель, блогер, путешественник и&nbsp;автор &laquo;Ководства&raquo;&nbsp;&mdash; руководства по&nbsp;веб-дизайну.</p>
+          <p class="biography_pretitle">Основатель, совладелец и&nbsp;генеральный директор &laquo;WebDesign&raquo;, впоследствии переименованной в&nbsp;Студию Артемия Лебедева. Основатель дизайнерских студий &laquo;А-квадрат&raquo;, &laquo;Артографика&raquo;, агентства интернет-рекламы &laquo;Реклама.ру&raquo;. С&nbsp;2008 года представитель акционеров в&nbsp;компании &laquo;SUP Media&raquo;, владеющей русскоязычным проектом &laquo;Живой Журнал&raquo;.</p>
+          <img class="art_lebedev__logo" src="img/logo-studii.jpg" alt="Логотип студии Лебедева">
+          <p>На&nbsp;счету <a target="_blank" href="https://www.artlebedev.ru/">Студии Артемия Лебедева</a> более двух с&nbsp;половиной тысяч работ, среди которых фирменные стили, книги, журналы, дорожные знаки, пиктограммы, графические и&nbsp;физические интерфейсы, сайты, объекты промдизайна и&nbsp;промышленной графики, витрины.</p>
+          <p>По&nbsp;собственному утверждению, Лебедев является отцом 10&nbsp;детей: четырёх девочек и&nbsp;шести мальчиков. Мать одного ребёнка&nbsp;&mdash; журналистка Марина Литвинович.</p>
+        <img class="red_line" src="img/red-line.svg" alt="красная ветка">
+        <img class="green_line" src="img/green-line.svg" alt="зеленая ветка">
+    </section>
+
+    <section class="interesting_facts">
+      <h1 class="interesting_facts__title">ФАКТЫ ИЗ ЖИЗНИ</h1>
+
+      <ul class="interesting_facts__list">
         <li>Лебедев&nbsp;&mdash; правнук писателя Алексея Толстого</li>
         <li>Жил с&nbsp;родителями в&nbsp;американском городе Балтимор, но&nbsp;возненавидел Америку и&nbsp;вернулся в&nbsp;СССР. С&nbsp;16&nbsp;лет жил один</li>
         <li>После школы поступил на&nbsp;факультет журналистики МГУ, но&nbsp;на&nbsp;лекции не&nbsp;ходил и&nbsp;был отчислен со&nbsp;второго курса</li>
@@ -47,12 +55,12 @@
         <li>Одними из&nbsp;первых клиентов студии Лебедева были Сбербанк России и&nbsp;Hewlett-Packard</li>
         <li>У&nbsp;&laquo;Студии&raquo; есть собственная шрифтовая система&nbsp;&mdash; гарнитура <a target="_blank" href="https://www.artlebedev.ru/studio/artemius/">Артемиус</a></li>
       </ul>
-      <img src="img/blue-line.svg" alt="синяя ветка">
-    </div>
-    <div class="nav_primeri-rabot">
-      <h1>ПРИМЕРЫ</h1>
-      <h1>РАБОТ</h1>
-      <div class="nav_primeri-rabot_chto-bilo-dalshe">
+      <img class="blue_line" src="img/blue-line.svg" alt="синяя ветка">
+    </section>
+
+    <section class="work_examples">
+      <h2 class="work_examples__title">ФАКТЫ ИЗ ЖИЗНИ</h2>
+      <div class="what_was_the__next">
         <img src="img/chto-bilo-dalshe1.jpg" alt="Пример работы для Что было дальше">
         <img src="img/chto-bilo-dalshe2.jpg" alt="Пример работы для Что было дальше">
         <p>Логотип шоу</p>
@@ -85,7 +93,8 @@
       <img src="img/white-blue-line.svg" alt="голубая ветка">
       <img src="img/perehod.svg" alt="иконка перехода">
       <img src="img/brown-line.svg" alt="коричневая ветка">
-    </div>
+    </section>
+
     <div class="nav_kontakti">
       <h1>КОНТАКТЫ</h1>
       <div class="nav_kontakti_icons">
@@ -120,5 +129,6 @@
       </div>
       <img src="img/pirple-line.svg" alt="фиолетовая ветка">
     </div>
+  </section>
   </body>
 </html>

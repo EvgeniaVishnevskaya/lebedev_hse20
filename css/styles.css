@@ -32,10 +32,7 @@ body {
 }
 
 .navigation {
-    width: 200px;
-    height: 195px;
-    opacity: 80%;
-    background-color: #ED1832;
+    
 }
 
 .navigation_list__container a {

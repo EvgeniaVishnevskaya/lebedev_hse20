@@ -1,20 +1,20 @@
 @import "reset.css";
 @font-face {
     font-family: Moscow Sans Regular;
-    src: url(css/font/12362.ttf);
+    src: url(css/font/12462.ttf);
 }
 * {
     box-sizing: border-box;
     /* margin: 0;
     padding: 0; */
-    font-family: Moscow Sans Regular, 'Helvetica';
+    font-family: Moscow Sans, 'Helvetica';
 }
 
 body {
     background-color: #ffffff;
-    font-family: Moscow Sans Regular, 'Helvetica';
-
+    font-family: Moscow Sans, 'Helvetica';
 }
+
 a{
   text-decoration: none;
   color: #ED1832;
@@ -75,10 +75,6 @@ a{
     left: -20px;
 }
 
-.otche_nash {
-
-}
-
 .examples_of__works {
     width: 250px;
 }
@@ -101,7 +97,7 @@ a{
     margin-top: 18px;
 }
 
-.otche_nash {
+.lebedev {
     padding-top: 16px;
     position: relative;
     display: inline-block;

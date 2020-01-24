@@ -1,7 +1,7 @@
 @import "reset.css";
 @font-face {
     font-family: Moscow Sans Regular;
-    src: url(css/font/12462.ttf);
+    src: url(../font/12462.ttf);
 }
 * {
     box-sizing: border-box;

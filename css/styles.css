@@ -5,8 +5,8 @@
 }
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     font-family: Moscow Sans Regular, 'Helvetica';
 }
 
@@ -14,6 +14,10 @@ body {
     background-color: #ffffff;
     font-family: Moscow Sans Regular, 'Helvetica';
 
+}
+a{
+  text-decoration: none;
+  color: #ED1832;
 }
 
 .container {
@@ -32,23 +36,332 @@ body {
 }
 
 .navigation {
-    
+    display: none;
+    position: relative;
 }
 
 .navigation_list__container a {
-    color: #ffffff;
-    font-size: 14px;
+    position: absolute;
+    padding-top: 35px;
+    padding-left: 50px;
+    z-index: 99;
+    color: #000000;
+    font-size: 18px;
     text-decoration: none;
+}
+
+.biography_a {
+    /* padding-top: 30px;
+   padding-bottom: 30px;
+   bottom: 30; */
+}
+
+.navigation {
+    /* display: none; */
+    position: absolute;
+    z-index: 999;
 }
 
 .navigation_list__container li {
     padding-bottom: 17px;
     padding-left: 20px;
     position: relative;
-
+    margin-bottom: 13px;
 }
+
 .navigation_list__icon {
     position: absolute;
-    top: 50px;
+    top: -8px;
+    left: -20px;
 }
-list-style: none;
+
+.otche_nash {
+
+}
+
+.examples_of__works {
+    width: 250px;
+}
+
+.facts {
+    margin-top: 18px;
+    width: 250px;
+    max-height: 40px; */
+}
+
+.examples_of__works {
+    margin-top: 18px;
+}
+
+.contacts {
+    margin-top: 19px;
+}
+
+.team {
+    margin-top: 18px;
+}
+
+.otche_nash {
+    padding-top: 16px;
+    position: relative;
+    display: inline-block;
+}
+
+.title_container {
+    padding-left: 21px;
+
+}
+
+.title_container__box {
+    position: absolute;
+    padding-top: -100px;
+    background-color: #ED1832;
+    width: 270px;
+    margin-top: -55px;
+}
+
+.header_title {
+    font-size: 55px;
+    color: #fff;
+    padding-left: 14px;
+    padding-bottom: 15px;
+    padding-top: 7px;
+
+}
+
+.title_container__box p {
+    color: #fff;
+    font-size: 20px;
+    padding-left: 14px;
+    padding-bottom: 15px;
+}
+
+.container {
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    top: 300;
+    right: 50;
+    margin-top: -201px;
+    margin-left: -60px;
+}
+
+
+.biography_title {
+    line-height: 92.9%;
+    font-size: 30px;
+    margin-top: 175px;
+    padding-left: 28px;
+    padding-bottom: 20px;
+}
+
+.biography_pretitle {
+    font-size: 18px;
+    padding-left: 28px;
+    line-height: 22px;
+    /* max-width: 255px; */
+}
+
+.art_lebedev__logo {
+    margin-left: 280px;
+    margin-top: -90px;
+    margin-bottom: 10px;
+}
+
+.biography_subtitle {
+    font-size: 18px;
+    padding-left: 28px;
+    padding-top: 5px;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+
+.interesting_facts__title {
+    font-size: 30px;
+    line-height: 92.9%;
+    margin-top: 100px;
+    margin-left: 42px;
+}
+
+.interesting_facts__list {
+    line-height: 22px;
+    font-size: 18px;
+    margin-left: 42px;
+}
+
+.interesting_facts__list li{
+    margin-top: 30px;
+}
+
+.four {
+    padding-top: 25px;
+}
+
+.five {
+    padding-top: 2px;
+}
+.show{
+    display: block !important;
+}
+.work_examples__title{
+  font-size: 30px;
+  line-height: 92.9%;
+  margin-top: 75px;
+  margin-left: 37.05px;
+}
+.what_was_the__next img{
+  margin-top: 8px;
+  margin-left: 37.05px;
+}
+.what_was_the__next .icon{
+  margin-left: -32px;
+  margin-top: 112px;
+  position: absolute;
+  z-index: 997;
+}
+.work_examples__taiga img{
+  margin-top: 16px;
+  margin-left: 37.05px;
+}
+.work_examples__taiga .icon{
+  margin-left: -32px;
+  margin-top: 122px;
+  position: absolute;
+  z-index: 997;
+}
+.work_examples__metro img{
+  margin-top: 16px;
+  margin-left: 37.05px;
+}
+.work_examples__metro .icon{
+  margin-left: -32px;
+  margin-top: 122px;
+  position: absolute;
+  z-index: 997;
+}
+.work_examples__oxuenno img{
+  margin-top: 16px;
+  margin-left: 37.05px;
+}
+.work_examples__oxuenno .icon{
+  margin-left: -32px;
+  margin-top: 112px;
+  position: absolute;
+  z-index: 997;
+}
+.work_examples__molodost img{
+  margin-top: 16px;
+  margin-left: 37.05px;
+  position: relative;
+  z-index: 5;
+}
+.work_examples__molodost .icon{
+  margin-left: -32px;
+  margin-top: 112px;
+  position: absolute;
+  z-index: 997;
+}
+.work_examples__raifaizen img{
+  margin-top: 16px;
+  margin-left: 37.05px;
+  position: relative;
+  z-index: 5;
+}
+.work_examples__raifaizen .icon{
+  margin-left: -32px;
+  margin-top: 112px;
+  position: absolute;
+  z-index: 997;
+}
+.work_examples__asix img{
+  margin-top: 16px;
+  margin-left: 37.05px;
+
+}
+.work_examples__asix .icon{
+  margin-left: -32px;
+  margin-top: 112px;
+  position: absolute;
+  z-index: 997;
+}
+.team{
+  margin-top: 48px;
+  margin-left: 10px;
+  width: 260px;
+  display: flex;
+  justify-content: flex-start;
+}
+.team a{
+  font-size: 9px;
+
+
+}
+.teamplayer_anechka{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+}
+.teamplayer_anechka a{
+
+  display: flex;
+  justify-content:center;
+}
+.teamplayer_jein{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+}
+.teamplayer_jein a{
+  display: flex;
+  justify-content:center;
+}
+.teamplayer_ravshan{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+}
+.teamplayer_ravshan a{
+  display: flex;
+  justify-content:center;
+}
+.teamplayer_mila{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+}
+.teamplayer_mila a{
+  display: flex;
+  justify-content: center;
+}
+.teamplayer_sanechka{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+}
+.teamplayer_sanechka a{
+  display: flex;
+  justify-content: center;
+}
+.ground{
+  width: 320px;
+  height: 45px;
+  margin-top: 80px;
+  background: #ED1B35;
+  display: flex;
+}
+.ground img{
+  width: 73px;
+  height: 29px;
+  margin-left: 28px;
+  margin-top: 8px;
+}
+.ground p{
+  font-size: 9px;
+  text-align: right;
+  margin-left: 155px;
+  margin-top: 30px;
+  color: #FFFFFF;
+
+}
